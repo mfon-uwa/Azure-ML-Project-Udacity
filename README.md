@@ -15,8 +15,9 @@ This model is then compared to an Azure AutoML run.
 
 **What are the benefits of the parameter sampler you chose?**
 
--- 1. max_iter: This indeicate the maximum iterations it took for the model to converged.
--- 2. 
+-- 1. max_iter: This indicate the maximum iterations it took for the model to converged.
+
+-- 2. C: a positive float that indicate an inverse strength of regularization.
 
 **What are the benefits of the early stopping policy you chose?**
 
