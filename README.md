@@ -14,7 +14,8 @@ This model is then compared to an Azure AutoML run.
 **Explain the pipeline architecture, including data, hyperparameter tuning, and classification algorithm.**
 
 **What are the benefits of the parameter sampler you chose?**
--- 1. max_iter: 
+-- 1. max_iter: This indeicate the maximum iterations it took for the model to converged.
+-- 2. 
 
 **What are the benefits of the early stopping policy you chose?**
 -- Early stopping policy is efficient, as it conserves resources and saves time by exiting runs (training of the model) that are unlikely to produce a better model than those generated from previous runs.
