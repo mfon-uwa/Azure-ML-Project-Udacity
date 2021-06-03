@@ -17,7 +17,7 @@ our objective was to build a model that will predict the 'y' (predict potential 
 **Explain the pipeline architecture, including data, hyperparameter tuning, and classification algorithm.**
 
 -- The Scikit-learn pipeline is made up of Azure ML objects: a Workspace, ComputeTarget, and Experiment. It also includes Machine learning task like: - 
-    1. Data preparation -  This include importing the dataset, cleaning, and transformation. The Dataset was splitted into train and test sets. 
+    1. Data preparation -  This include importing the dataset, cleaning, and transformation, as well as spliting the dataset into train and test sets. 
     2. Model Training - The model was trained using Logistic regression with two hyperparamters(Regularization Strength and Max iterations).
     3. Model Evaluation - Accuracy was selected as the primary metric for scoring the model.
     
