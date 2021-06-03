@@ -16,11 +16,17 @@ our objective was to build a model that will predict the 'y' (predict potential 
 ## Scikit-learn Pipeline
 **Explain the pipeline architecture, including data, hyperparameter tuning, and classification algorithm.**
 
+-- The Scikit-learn pipeline is made up of Azure ML objects: a Workspace, ComputeTarget, and Experiment. It also includes Machine learning task like: - 
+    1. Data preparation -  This include importing the dataset, cleaning, and transformation. The Dataset was splitted into train and test sets. 
+    2. Model Training - The model was trained using Logistic regression with two hyperparamters(Regularization Strength and Max iterations).
+    3. Model Evaluation - Accuracy was selected as the primary metric for scoring the model.
+    
+
 **What are the benefits of the parameter sampler you chose?**
 
--- 1. max_iter: This indicate the maximum iterations it took for the model to converged.
+-- 1. **max_iter:** This indicate the maximum iterations it took for the model to converged.
 
--- 2. C: a positive float that indicate an inverse strength of regularization.
+-- 2. **C:** a positive float that indicate an inverse strength of regularization.
 
 **What are the benefits of the early stopping policy you chose?**
 
