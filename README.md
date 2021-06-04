@@ -48,6 +48,3 @@ our objective was to build a model that will predict the 'y' (predict potential 
 ## Future work
 **What are some areas of improvement for future experiments? Why might these improvements help the model?**
 
-## Proof of cluster clean up
-**If you did not delete your compute cluster in the code, please complete this section. Otherwise, delete this section.**
-**Image of cluster marked for deletion**
