@@ -13,7 +13,7 @@ our objective is to predict the 'y' (potential customers that are likly to subsc
 
 **In 1-2 sentences, explain the solution: e.g. "The best performing model was a ..."**
 
--- With maximium of 16 runs, all completed with same model score of 0.91 though with diffenent hyperparameter values.
+-- The dataset was cleaned and transformed, splitted into train and test sets. A logistic regression model was define and submitted to an experiment. With a maximium of 16 runs, all completed with same model score of 0.91 though with diffenent hyperparameter values.
 
 ## Scikit-learn Pipeline
 **Explain the pipeline architecture, including data, hyperparameter tuning, and classification algorithm.**
